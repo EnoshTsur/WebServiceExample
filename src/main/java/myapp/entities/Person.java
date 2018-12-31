@@ -1,6 +1,7 @@
 package myapp.entities;
 
 import java.io.Serializable;
+import java.util.concurrent.TimeUnit;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -35,5 +36,6 @@ public class Person implements Serializable{
 		return "Pesron [name=" + name + "]";
 	}
 	
+
 	
 }
